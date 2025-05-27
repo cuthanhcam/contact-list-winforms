@@ -33,6 +33,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.btnLuu = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtHoTen
@@ -57,18 +58,26 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(204, 279);
+            this.btnLuu.Location = new System.Drawing.Point(223, 297);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 23);
             this.btnLuu.TabIndex = 3;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(223, 237);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 4;
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.txtSoDienThoai);
             this.Controls.Add(this.txtHoTen);
@@ -85,5 +94,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox txtSoDienThoai;
         private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }
