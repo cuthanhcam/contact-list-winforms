@@ -34,6 +34,7 @@
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.btnLuu = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lblThongTinBoSung = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtHoTen
@@ -72,11 +73,21 @@
             this.txtEmail.Size = new System.Drawing.Size(100, 22);
             this.txtEmail.TabIndex = 4;
             // 
+            // lblThongTinBoSung
+            // 
+            this.lblThongTinBoSung.AutoSize = true;
+            this.lblThongTinBoSung.Location = new System.Drawing.Point(481, 121);
+            this.lblThongTinBoSung.Name = "lblThongTinBoSung";
+            this.lblThongTinBoSung.Size = new System.Drawing.Size(113, 16);
+            this.lblThongTinBoSung.TabIndex = 5;
+            this.lblThongTinBoSung.Text = "Thông tin bổ sung";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblThongTinBoSung);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.txtSoDienThoai);
@@ -95,5 +106,6 @@
         private System.Windows.Forms.TextBox txtSoDienThoai;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label lblThongTinBoSung;
     }
 }
