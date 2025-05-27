@@ -41,16 +41,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh sách liên hệ";
             // 
-            // btnThemLienHe
-            // 
-            this.btnThemLienHe.Location = new System.Drawing.Point(330, 100);
-            this.btnThemLienHe.Name = "btnThemLienHe";
-            this.btnThemLienHe.Size = new System.Drawing.Size(134, 23);
-            this.btnThemLienHe.TabIndex = 1;
-            this.btnThemLienHe.Text = "Thêm liên hệ";
-            this.btnThemLienHe.UseVisualStyleBackColor = true;
-            this.btnThemLienHe.Click += new System.EventHandler(this.btnThemLienHe_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
