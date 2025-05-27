@@ -17,10 +17,6 @@ namespace ContactList
             InitializeComponent();
         }
 
-        private void btnThemLienHe_Click(object sender, EventArgs e)
-        {
-            AddContactForm addForm = new AddContactForm();
-            addForm.ShowDialog();
-        }
+       
     }
 }
